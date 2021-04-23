@@ -465,6 +465,7 @@
   .hero {
     margin-top: -90px;
     height: 80vh;
+    min-height: 700px;
   }
   .hero .hero-content {
     max-width: 1100px;
@@ -473,12 +474,13 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-height: 800px;
   }
   .hero .hero-content h1 {
     font-size: 65px;
-    -webkit-box-flex: 3;
-        -ms-flex: 3;
-            flex: 3;
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
   }
   .hero .hero-content p {
     font-size: 22px;
